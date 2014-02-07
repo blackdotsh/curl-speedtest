@@ -92,13 +92,26 @@ speedtest 162.216.226.220;
 echo "Speedtest from Phoenix, AZ, USA [ generously donated by http://hostnun.net/ ] on a shared 1 Gbps port";
 speedtest 184.95.37.105;
 
+##Phoenix, AZ, USA (donated by http://goodhosting.co/)
+echo "Speedtest from Phoenix, AZ, USA [ generously donated by http://goodhosting.co/ ] on a shared unmetered 1 Gbps port";
+speedtest 198.20.92.32;
+
 ### Dallas, TX, USA
 echo "Speedtest from Dallas, TX, USA on a shared 1 Gbps port";
 speedtest 198.52.198.248;
 
+### Dallas, TX, USA (donated by http://cloudshards.com)
+echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
+speedtest 162.220.26.107;
+
+
 ### Chicago, IL, USA (donated by http://vortexservers.com)
 echo "Speedtest from Chicago, IL, USA [ generously donated by http://vortexservers.com ] on a shared 1 Gbps port";
 speedtest 192.210.229.206;
+
+### Chicago, IL, USA (donated by http://goodhosting.co/)
+echo "Speedtest from Chicago, IL, USA [ generously donated by http://goodhosting.co/ ] on a shared unmetered 1 Gbps port";
+speedtest 184.154.113.30;
 
 ## Buffalo, NY, USA
 echo "Speedtest from Buffalo, NY, USA on a shared 1 Gbps port";
@@ -126,16 +139,16 @@ echo "Speedtest from Milan, Italy [ generously donated by http://www.prometeus.n
 speedtest webtests.100percent.info; 
 
 ### Frankfurt am Main, Germany
-echo "Speedtest from Frankfurt am Main, Germany [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port ";
+echo "Speedtest from Frankfurt am Main, Germany [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
 speedtest black.100percent.info;
 
 ### Bucharest, Romania
 echo "Speedtest from Bucharest, Romania [ generously donated by http://www.prometeus.net ] on a semi-dedicated 1 Gbps port";
 speedtest "servoni.eu/webtests";
 
-### Hampshire, UK
-#echo "Speed test from Hampshire, UK [ generously donated by ForthCloud https://www.forthcloud.com ] on a dedicated 1 Gbps port + shared 10Gbps port"; 
-#speedtest speedtest.forthcloud.com;
+### Amsterdam, NL
+echo "Speedtest from Amsterdam, Netherlands on a shared 100 Mbps port";
+speedtest 91.215.156.65;
 
 unlink $fileName;
 
