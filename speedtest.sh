@@ -129,6 +129,10 @@ speedtest 107.161.112.217;
 echo "Speedtest from Clifton, NJ, USA [ generously donated by http://dedicatedminds.com ] on a shared 1 Gbps port";
 speedtest 199.36.221.36;
 
+## Miami, FL, USA (donated by http://virtovo.com)
+echo "Speedtest from Miami, FL, USA [ generously donated by http://virtovo.com ] on a shared 1 Gbps port";
+speedtest 64.188.44.101;
+
 echo -e "\nTesting EU locations";
 ### Tallinn, Estonia
 echo "Speedtest from Tallinn, Estonia on a shared 1 Gbps port";
