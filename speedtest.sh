@@ -89,7 +89,7 @@ speedtest 162.216.226.220;
 #speedtest 67.214.183.244;
 
 ##Phoenix, AZ, USA (donated by hostnun)
-echo "Speedtest from Phoenix, AZ, USA [ generously donated by http://hostnun.net/ ] on a shared 200 Mbps port";
+echo "Speedtest from Las Vegas, NV, USA [ generously donated by http://hostnun.net/ ] on a shared 200 Mbps port";
 speedtest 76.164.207.156;
 
 ##Phoenix, AZ, USA (donated by http://goodhosting.co/)
