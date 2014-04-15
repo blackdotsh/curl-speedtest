@@ -123,7 +123,7 @@ speedtest 198.50.209.250;
 
 ## Atlanta, GA, USA (donated by  http://hostus.us)
 echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
-speedtest 107.161.112.217;
+speedtest 162.245.216.241;
 
 ## Clifton, NJ, USA (donated by  http://dedicatedminds.com)
 echo "Speedtest from Clifton, NJ, USA [ generously donated by http://dedicatedminds.com ] on a shared 1 Gbps port";
