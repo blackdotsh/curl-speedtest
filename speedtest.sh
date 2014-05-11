@@ -15,10 +15,11 @@ then
 	rm FORCE100MBFILESPEEDTEST;
 fi
 
+##need sed now because some european versions of curl insert a , in the speed results
 speedtest () {
-	dlspeed=$(echo -n "scale=2; " && curl http://$1/$fileName -w "%{speed_download}" -o $fileName -s && echo "/1048576");
+	dlspeed=$(echo -n "scale=2; " && curl http://$1/$fileName -w "%{speed_download}" -o $fileName -s | sed "s/\,/\./g" && echo "/1048576");
 	echo "$dlspeed" | bc -q | sed "s/$/ MB\/sec/;s/^/\tDownload Speed\: /";
-	ulspeed=$(echo -n "scale=2; " && curl -F "file=@$fileName" http://$1/webtests/ul.php -w "%{speed_upload}" -s -o /dev/null && echo "/1048576");
+	ulspeed=$(echo -n "scale=2; " && curl -F "file=@$fileName" http://$1/webtests/ul.php -w "%{speed_upload}" -s -o /dev/null | sed "s/\,/\./g" && echo "/1048576");
 	echo "$ulspeed" | bc -q | sed "s/$/ MB\/sec/;s/^/\tUpload speed\: /";
 }
 
@@ -113,9 +114,10 @@ speedtest 192.210.229.206;
 echo "Speedtest from Chicago, IL, USA [ generously donated by http://goodhosting.co/ ] on a shared unmetered 1 Gbps port";
 speedtest 184.154.113.30;
 
+#Really slow right now
 ## Buffalo, NY, USA
-echo "Speedtest from Buffalo, NY, USA on a shared 1 Gbps port";
-speedtest 192.3.201.19;
+#echo "Speedtest from Buffalo, NY, USA on a shared 1 Gbps port";
+#speedtest 192.3.201.19;
 
 ##Beauharnois, Quebec, Canada (donated by http://http://mycustomhosting.net)
 echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://mycustomhosting.net ] on a shared 1000 Mbps port in / 500 Mbps port out";
@@ -168,3 +170,6 @@ cputest;
 ## start disk test
 echo "----------------IO test-------------------";
 disktest;
+
+##hints
+echo -e "If you need to speedtest in a specific region:\n http://dl.getipaddr.net/speedtest.NA.sh for North America\n http://dl.getipaddr.net/speedtest.EU.sh for Europe";
