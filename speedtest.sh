@@ -136,10 +136,9 @@ speedtest 199.36.221.36;
 echo "Speedtest from Miami, FL, USA [ generously donated by http://virtovo.com ] on a shared 1 Gbps port";
 speedtest 64.188.44.101;
 
-#offline 
 ##Jacksonville, FL, USA (donated by http://maximumvps.net)
-#echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
-#speedtest 107.155.187.129;
+echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
+speedtest 107.155.187.129;
 
 
 echo -e "\nTesting EU locations";
