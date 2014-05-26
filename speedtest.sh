@@ -97,9 +97,10 @@ speedtest 76.164.207.156;
 echo "Speedtest from Phoenix, AZ, USA [ generously donated by http://goodhosting.co/ ] on a shared unmetered 1 Gbps port";
 speedtest 198.20.92.32;
 
+#slow
 ### Dallas, TX, USA
-echo "Speedtest from Dallas, TX, USA on a shared 1 Gbps port";
-speedtest 198.52.198.248;
+#echo "Speedtest from Dallas, TX, USA on a shared 1 Gbps port";
+#speedtest 198.52.198.248;
 
 ### Dallas, TX, USA (donated by http://cloudshards.com)
 echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
@@ -135,9 +136,10 @@ speedtest 199.36.221.36;
 echo "Speedtest from Miami, FL, USA [ generously donated by http://virtovo.com ] on a shared 1 Gbps port";
 speedtest 64.188.44.101;
 
+#offline 
 ##Jacksonville, FL, USA (donated by http://maximumvps.net)
-echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
-speedtest 107.155.187.129;
+#echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
+#speedtest 107.155.187.129;
 
 
 echo -e "\nTesting EU locations";
