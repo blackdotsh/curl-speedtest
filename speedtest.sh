@@ -93,10 +93,6 @@ speedtest 162.216.226.220;
 echo "Speedtest from Las Vegas, NV, USA [ generously donated by http://hostnun.net/ ] on a shared 200 Mbps port";
 speedtest 76.164.207.156;
 
-##Phoenix, AZ, USA (donated by http://goodhosting.co/)
-echo "Speedtest from Phoenix, AZ, USA [ generously donated by http://goodhosting.co/ ] on a shared unmetered 1 Gbps port";
-speedtest 198.20.92.32;
-
 #slow
 ### Dallas, TX, USA
 #echo "Speedtest from Dallas, TX, USA on a shared 1 Gbps port";
@@ -110,10 +106,6 @@ speedtest 162.220.26.107;
 ### Chicago, IL, USA (donated by http://vortexservers.com)
 echo "Speedtest from Chicago, IL, USA [ generously donated by http://vortexservers.com ] on a shared 1 Gbps port";
 speedtest 192.210.229.206;
-
-### Chicago, IL, USA (donated by http://goodhosting.co/)
-echo "Speedtest from Chicago, IL, USA [ generously donated by http://goodhosting.co/ ] on a shared unmetered 1 Gbps port";
-speedtest 184.154.113.30;
 
 #Really slow right now
 ## Buffalo, NY, USA
