@@ -156,7 +156,7 @@ speedtest 91.215.156.65;
 
 unlink $fileName;
 
-### Due to the expensive bandwidth, use the 10MB test file
+### Due to expensive bandwidth, use the 10MB test file instead
 fileName="10mb.test";
 
 ls "$fileName" 1>/dev/null 2>/dev/null;
