@@ -6,14 +6,14 @@
 fileName="100mb.test";
 #check if user wants 100MB files instead
 ##NOTE: testing with 100MB by default
-ls "FORCE100MBFILESPEEDTEST" 2>/dev/null 1>/dev/null;
-if [ $? -eq 0 ]
-then
-	#echo "Forcing 100MB speed test";
-	fileName="100mb.test";
-	#remove this file after filename variable as been set
-	rm FORCE100MBFILESPEEDTEST;
-fi
+#ls "FORCE100MBFILESPEEDTEST" 2>/dev/null 1>/dev/null;
+#if [ $? -eq 0 ]
+#then
+#	#echo "Forcing 100MB speed test";
+#	fileName="100mb.test";
+#	#remove this file after filename variable as been set
+#	rm FORCE100MBFILESPEEDTEST;
+#fi
 
 ##need sed now because some european versions of curl insert a , in the speed results
 speedtest () {
@@ -156,6 +156,24 @@ speedtest 91.215.156.65;
 
 unlink $fileName;
 
+### Due to the expensive bandwidth, use the 10MB test file
+fileName="10mb.test";
+
+ls "$fileName" 1>/dev/null 2>/dev/null;
+if [ $? -eq 0 ]
+then
+        echo "$fileName already exists, remove it or rename it";
+        exit 1;
+fi
+
+echo -e "\nTesting Asian locations";
+
+### Tokyo, Japan
+echo "Speedtest from Tokyo, Japan on a shared 1 Gbps port";
+speedtest 108.61.200.70:12601;
+
+unlink $fileName;
+
 ## start CPU test
 echo "---------------CPU test--------------------";
 cputest;
@@ -165,4 +183,8 @@ echo "----------------IO test-------------------";
 disktest;
 
 ##hints
-echo -e "If you need to speedtest in a specific region:\n http://dl.getipaddr.net/speedtest.NA.sh for North America\n http://dl.getipaddr.net/speedtest.EU.sh for Europe";
+echo -e "If you need to speedtest in a specific region:
+http://dl.getipaddr.net/speedtest.NA.sh for North America
+http://dl.getipaddr.net/speedtest.EU.sh for Europe
+http://dl.getipaddr.net/speedtest.Asia.sh for Asia";
+
