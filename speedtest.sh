@@ -172,6 +172,12 @@ echo -e "\nTesting Asian locations";
 echo "Speedtest from Tokyo, Japan on a shared 1 Gbps port";
 speedtest 108.61.200.70:12601;
 
+echo -e "\nTesting Australian locations";
+
+### Sydney, Australia
+echo "Speedtest from Sydney, Australia on a shared 1 Gbps port";
+speedtest 103.25.58.8:3310;
+
 unlink $fileName;
 
 ## start CPU test
@@ -186,5 +192,6 @@ disktest;
 echo -e "If you need to speedtest in a specific region:
 http://dl.getipaddr.net/speedtest.NA.sh for North America
 http://dl.getipaddr.net/speedtest.EU.sh for Europe
-http://dl.getipaddr.net/speedtest.Asia.sh for Asia";
+http://dl.getipaddr.net/speedtest.Asia.sh for Asia
+http://dl.getipaddr.net/speedtest.AU.sh for Australia";
 
