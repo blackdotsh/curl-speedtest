@@ -93,11 +93,6 @@ speedtest 162.216.226.220;
 echo "Speedtest from Las Vegas, NV, USA [ generously donated by http://hostnun.net/ ] on a shared 200 Mbps port";
 speedtest 76.164.207.156;
 
-#slow
-### Dallas, TX, USA
-#echo "Speedtest from Dallas, TX, USA on a shared 1 Gbps port";
-#speedtest 198.52.198.248;
-
 ### Dallas, TX, USA (donated by http://cloudshards.com)
 echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
 speedtest 162.220.26.107;
@@ -106,11 +101,6 @@ speedtest 162.220.26.107;
 ### Chicago, IL, USA (donated by http://vortexservers.com)
 echo "Speedtest from Chicago, IL, USA [ generously donated by http://vortexservers.com ] on a shared 1 Gbps port";
 speedtest 192.210.229.206;
-
-#Really slow right now
-## Buffalo, NY, USA
-#echo "Speedtest from Buffalo, NY, USA on a shared 1 Gbps port";
-#speedtest 192.3.201.19;
 
 ##Beauharnois, Quebec, Canada (donated by http://http://mycustomhosting.net)
 echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://mycustomhosting.net ] on a shared 1000 Mbps port in / 500 Mbps port out";
@@ -123,10 +113,6 @@ speedtest 162.245.216.241;
 ## Clifton, NJ, USA (donated by  http://dedicatedminds.com)
 echo "Speedtest from Clifton, NJ, USA [ generously donated by http://dedicatedminds.com ] on a shared 1 Gbps port";
 speedtest 199.36.221.36;
-
-## Miami, FL, USA (donated by http://virtovo.com)
-echo "Speedtest from Miami, FL, USA [ generously donated by http://virtovo.com ] on a shared 1 Gbps port";
-speedtest 64.188.44.101;
 
 ##Jacksonville, FL, USA (donated by http://maximumvps.net)
 echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
