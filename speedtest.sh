@@ -77,6 +77,10 @@ echo "-------------Speed test--------------------";
 
 echo "Testing North America locations";
 
+### Portland, Oregon, USA (donated by http://bonevm.com)
+echo "Speedtest from Portland, Oregon, USA [ generously donated by http://bonevm.com ] on a shared 100 Mbps port";
+speedtest 100.42.19.110;
+
 ### Los Angeles, CA, USA (donated by http://maximumvps.net)
 echo "Speedtest from Los Angeles, CA, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
 speedtest 107.150.31.36;
@@ -96,7 +100,6 @@ speedtest 76.164.207.156;
 ### Dallas, TX, USA (donated by http://cloudshards.com)
 echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
 speedtest 162.220.26.107;
-
 
 ### Chicago, IL, USA (donated by http://vortexservers.com)
 echo "Speedtest from Chicago, IL, USA [ generously donated by http://vortexservers.com ] on a shared 1 Gbps port";
