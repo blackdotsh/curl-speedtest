@@ -109,6 +109,10 @@ speedtest 192.210.229.206;
 echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://mycustomhosting.net ] on a shared 1000 Mbps port in / 500 Mbps port out";
 speedtest 198.50.209.250;
 
+## Buffalo, NY, USA
+echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port":
+speedtest 23.94.28.158;
+
 ## Atlanta, GA, USA (donated by  http://hostus.us)
 echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
 speedtest 162.245.216.241;
