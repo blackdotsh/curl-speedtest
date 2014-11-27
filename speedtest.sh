@@ -131,17 +131,9 @@ speedtest 46.22.208.190;
 echo "Speedtest from Milan, Italy [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
 speedtest webtests.100percent.info; 
 
-### Frankfurt am Main, Germany
-echo "Speedtest from Frankfurt am Main, Germany [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
-speedtest black.100percent.info;
-
 ### Bucharest, Romania
 echo "Speedtest from Bucharest, Romania [ generously donated by http://www.prometeus.net ] on a semi-dedicated 1 Gbps port";
 speedtest "servoni.eu/webtests";
-
-### Amsterdam, NL
-echo "Speedtest from Amsterdam, Netherlands on a shared 100 Mbps port";
-speedtest 91.215.156.65;
 
 unlink $fileName;
 
