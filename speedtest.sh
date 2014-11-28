@@ -127,6 +127,10 @@ echo -e "\nTesting EU locations";
 echo "Speedtest from Tallinn, Estonia on a shared 1 Gbps port";
 speedtest 46.22.208.190;
 
+### Paris, France
+echo "Speedtest from Paris, France on a shared 1 Gbps port";
+speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
+
 ### Milan, Italy
 echo "Speedtest from Milan, Italy [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
 speedtest webtests.100percent.info; 
