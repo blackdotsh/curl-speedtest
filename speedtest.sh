@@ -117,6 +117,10 @@ speedtest 23.94.28.158;
 echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
 speedtest 162.245.216.241;
 
+## Lenoir, NC, USA
+echo "Speedtest from Lenoir, NC, USA on a shared 1 Gbps port";
+speedtest 192.111.152.114:2020;
+
 ##Jacksonville, FL, USA (donated by http://maximumvps.net)
 echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
 speedtest 107.155.187.129;
