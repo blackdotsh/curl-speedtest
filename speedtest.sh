@@ -139,6 +139,14 @@ speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
 echo "Speedtest from Milan, Italy [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
 speedtest webtests.100percent.info; 
 
+### Dusseldorf, Germany (donated by http://nanovz.com)
+echo "Speedtest from Dusseldorf, Germany [ generously donated by http://www.nanovz.com ] on a shared 100 Mbps port";
+speedtest 130.255.188.37:7020;
+
+### Falkenstein, Germany (donated by http://nanovz.com)
+echo "Speedtest from Falkenstein, Germany [ generously donated by http://www.nanovz.com ] on a shared 100 Mbps port";
+speedtest 5.9.123.49:12120;
+
 ### Bucharest, Romania
 echo "Speedtest from Bucharest, Romania [ generously donated by http://www.prometeus.net ] on a semi-dedicated 1 Gbps port";
 speedtest "servoni.eu/webtests";
