@@ -97,6 +97,10 @@ speedtest 162.216.226.220;
 echo "Speedtest from Las Vegas, NV, USA [ generously donated by http://hostnun.net/ ] on a shared 200 Mbps port";
 speedtest 76.164.207.156;
 
+##Denver, CO, USA
+echo "Speedtest from Denver, CO, USA on a shared 100 Mbps port";
+speedtest aj1dddzidccbez4i9fh3evs0tyj.getipaddr.net;
+
 ### Dallas, TX, USA (donated by http://cloudshards.com)
 echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
 speedtest 162.220.26.107;
