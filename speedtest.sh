@@ -105,6 +105,10 @@ speedtest 76.164.207.156;
 echo "Speedtest from Denver, CO, USA on a shared 100 Mbps port";
 speedtest aj1dddzidccbez4i9fh3evs0tyj.getipaddr.net;
 
+##Kansas City, MO, USA
+echo "Speedtest from Kansas City, MO, USA [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
+speedtest 208.67.5.186:10420;
+
 ### Dallas, TX, USA (donated by http://cloudshards.com)
 echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
 speedtest 162.220.26.107;
