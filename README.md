@@ -4,7 +4,8 @@ curl-speedtest
 A simple benchmark script that shows download and <b>upload</b> speed for multiple locations around the world, CPU speed, and I/O write speed.
 
 The motivation behind this speedtest project is to give you a full picture of your network capabilities. A server serves content, which means the upload speed is extremely important and should not be neglected in a network benchmark test. Using standard utilities in Linux that people are familiar with, this network speed test should be a good base line and works well on minimalistic systems. <br>
-<br><br><br>
+<br><br>
+You can run the benchmark script using one of the following commands:
 ```
 wget dl.getipaddr.net/speedtest.sh -q -O- | bash 
 ```
