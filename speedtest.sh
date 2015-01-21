@@ -90,8 +90,8 @@ echo "Speedtest from Los Angeles, CA, USA [ generously donated by TeraFire, LLC 
 speedtest 162.216.226.220;
 
 ### San Jose, CA, USA
-echo "Speedtest from San Jose, CA, USA on a shared 1 Gbps port";
-speedtest 158.85.223.48;
+#echo "Speedtest from San Jose, CA, USA on a shared 1 Gbps port";
+#speedtest 158.85.223.48;
 
 ### South Bend, Indiana, USA (donated by Nodebytes)
 #echo "Speedtest from South Bend, Indiana, USA [ generously donated by NodeBytes ] on a shared 100 Mbps port";
