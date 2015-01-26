@@ -89,18 +89,6 @@ speedtest 107.150.31.36;
 echo "Speedtest from Los Angeles, CA, USA [ generously donated by TeraFire, LLC ] on a shared 1 Gbps port";
 speedtest 162.216.226.220;
 
-### San Jose, CA, USA
-#echo "Speedtest from San Jose, CA, USA on a shared 1 Gbps port";
-#speedtest 158.85.223.48;
-
-### South Bend, Indiana, USA (donated by Nodebytes)
-#echo "Speedtest from South Bend, Indiana, USA [ generously donated by NodeBytes ] on a shared 100 Mbps port";
-#speedtest 67.214.183.244;
-
-##Phoenix, AZ, USA (donated by hostnun)
-echo "Speedtest from Las Vegas, NV, USA [ generously donated by http://hostnun.net/ ] on a shared 200 Mbps port";
-speedtest 76.164.207.156;
-
 ##Denver, CO, USA
 echo "Speedtest from Denver, CO, USA on a shared 100 Mbps port";
 speedtest aj1dddzidccbez4i9fh3evs0tyj.getipaddr.net;
@@ -121,8 +109,12 @@ speedtest 192.210.229.206;
 echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://mycustomhosting.net ] on a shared 1000 Mbps port in / 500 Mbps port out";
 speedtest 198.50.209.250;
 
+##Beauharnois, Quebec, Canada (donated by hostnun)
+echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://hostnun.net/ ] on a shared 500 Mbps port";
+speedtest 192.99.214.74;
+
 ## Buffalo, NY, USA
-echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port":
+echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port (location may be slow)":
 speedtest 23.94.28.158;
 
 ## Atlanta, GA, USA (donated by  http://hostus.us)
