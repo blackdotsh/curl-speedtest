@@ -78,8 +78,8 @@ echo "-------------Speed test--------------------";
 echo "Testing North America locations";
 
 ### Portland, Oregon, USA (donated by http://bonevm.com)
-#echo "Speedtest from Portland, Oregon, USA [ generously donated by http://bonevm.com ] on a shared 100 Mbps port";
-#speedtest 100.42.19.110;
+echo "Speedtest from Portland, Oregon, USA [ generously donated by http://bonevm.com ] on a shared 100 Mbps port";
+speedtest 100.42.19.110;
 
 ## Seattle, Washington, USA
 echo "Speedtest from Seattle, Washington, USA on a shared 100 Mbps port";
