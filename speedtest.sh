@@ -153,7 +153,8 @@ speedtest 130.255.188.37:7020;
 
 ### Falkenstein, Germany (donated by http://megavz.com)
 echo "Speedtest from Falkenstein, Germany [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
-speedtest 5.9.123.49:12120;
+speedtest 5.9.2.36:12120;
+
 
 ### Bucharest, Romania
 echo "Speedtest from Bucharest, Romania [ generously donated by http://www.prometeus.net ] on a semi-dedicated 1 Gbps port";
