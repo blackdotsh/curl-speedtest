@@ -118,8 +118,8 @@ echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://
 speedtest 192.99.214.74;
 
 ## Buffalo, NY, USA
-echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port (location may be slow)":
-speedtest 23.94.28.158;
+#echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port (location may be slow)":
+#speedtest 23.94.28.158;
 
 ## Atlanta, GA, USA (donated by  http://hostus.us)
 echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
