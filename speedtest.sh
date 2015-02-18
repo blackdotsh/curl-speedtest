@@ -143,6 +143,14 @@ speedtest 46.22.208.190;
 echo "Speedtest from Paris, France on a shared 1 Gbps port";
 speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
 
+### Roubaix, France (donated by http://www.freshnetworks.co)
+echo "Speedtest from Roubaix, France [ generously donated by http://www.freshnetworks.co ] on a 100 Mbps shared port";
+speedtest "188.165.200.138:38301";
+
+### Spijkenisse, Netherlands (donated by http://www.freshnetworks.co)
+echo "Speedtest from Spijkenisse, Netherlands [ generously donated by http://www.freshnetworks.co ] on a 1 Gbps shared port";
+speedtest "94.228.216.119:34700";
+
 ### Milan, Italy
 echo "Speedtest from Milan, Italy [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
 speedtest webtests.100percent.info; 
