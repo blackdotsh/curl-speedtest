@@ -139,6 +139,10 @@ echo -e "\nTesting EU locations";
 echo "Speedtest from Tallinn, Estonia on a shared 1 Gbps port";
 speedtest 46.22.208.190;
 
+### London, UK
+echo "Speedtest from London, United Kingdom on a shared 1 Gbps port";
+speedtest 178.62.29.155;
+
 ### Paris, France
 echo "Speedtest from Paris, France on a shared 1 Gbps port";
 speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
