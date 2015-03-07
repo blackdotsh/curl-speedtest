@@ -172,6 +172,12 @@ speedtest 5.9.2.36:12120;
 echo "Speedtest from Bucharest, Romania [ generously donated by http://www.prometeus.net ] on a semi-dedicated 1 Gbps port";
 speedtest "servoni.eu/webtests";
 
+echo -e "\nTesting Asian locations";
+
+### Singapore
+echo "Speedtest from Singapore on a shared 1 Gbps port";
+speedtest 128.199.65.191;
+
 unlink $fileName;
 
 ### Due to expensive bandwidth, use the 10MB test file instead
@@ -183,8 +189,6 @@ then
         echo "$fileName already exists, remove it or rename it";
         exit 1;
 fi
-
-echo -e "\nTesting Asian locations";
 
 ### Tokyo, Japan
 echo "Speedtest from Tokyo, Japan on a shared 1 Gbps port";
