@@ -115,7 +115,7 @@ speedtest 198.50.209.250;
 
 ##Beauharnois, Quebec, Canada (donated by hostnun)
 echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://hostnun.net/ ] on a shared 500 Mbps port";
-speedtest 192.99.214.74;
+speedtest 167.114.135.10;
 
 ## Buffalo, NY, USA
 #echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port (location may be slow)":
