@@ -129,6 +129,10 @@ speedtest 162.245.216.241;
 echo "Speedtest from Lenoir, NC, USA [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
 speedtest 192.111.152.114:2020;
 
+## Asheville, NC, USA
+echo "Speedtest from  Asheville, NC, USA on a shared 1 Gbps port";
+speedtest 162.219.26.75:12320;
+
 ##Jacksonville, FL, USA (donated by http://maximumvps.net)
 echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
 speedtest 107.155.187.129;
