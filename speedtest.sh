@@ -81,17 +81,21 @@ echo "Testing North America locations";
 echo "Speedtest from Portland, Oregon, USA [ generously donated by http://bonevm.com ] on a shared 100 Mbps port";
 speedtest 100.42.19.110;
 
-## Seattle, Washington, USA
-#echo "Speedtest from Seattle, Washington, USA on a shared 100 Mbps port";
-#speedtest 162.251.70.58:383;
+## Seattle, Washington, USA (donated by http://ramnode.com)
+echo "Speedtest from Seattle, Washington, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
+speedtest 23.226.231.112;
 
 ### Los Angeles, CA, USA (donated by http://maximumvps.net)
 echo "Speedtest from Los Angeles, CA, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
 speedtest 107.150.31.36;
 
 ### LA, CA, USA (donated by http://terafire.net)
-echo "Speedtest from Los Angeles, CA, USA [ generously donated by TeraFire, LLC ] on a shared 1 Gbps port";
-speedtest 162.216.226.220;
+#echo "Speedtest from Los Angeles, CA, USA [ generously donated by TeraFire, LLC ] on a shared 1 Gbps port";
+#speedtest 162.216.226.220;
+
+## Los Angeles, California, USA (donated by http://ramnode.com)
+echo "Speedtest from Los Angeles, California, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
+speedtest 168.235.78.99;
 
 ##Denver, CO, USA
 echo "Speedtest from Denver, CO, USA on a shared 100 Mbps port";
@@ -117,13 +121,21 @@ speedtest 198.50.209.250;
 echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://hostnun.net/ ] on a shared 500 Mbps port";
 speedtest 167.114.135.10;
 
+## New York City, New York, USA (donated by http://ramnode.com)
+echo "Speedtest from New York City, New York, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
+speedtest 168.235.81.120;
+
 ## Buffalo, NY, USA
 #echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port (location may be slow)":
 #speedtest 23.94.28.158;
 
+## Atlanta, Georgia, USA (donated by http://ramnode.com)
+echo "Speedtest from Atlanta, Georgia, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
+speedtest 192.73.235.56;
+
 ## Atlanta, GA, USA (donated by  http://hostus.us)
-echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
-speedtest 162.245.216.241;
+#echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
+#speedtest 162.245.216.241;
 
 ## Lenoir, NC, USA (donated by http://megavz.com
 echo "Speedtest from Lenoir, NC, USA [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
@@ -154,6 +166,10 @@ speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
 ### Roubaix, France (donated by http://www.freshnetworks.co)
 #echo "Speedtest from Roubaix, France [ generously donated by http://www.freshnetworks.co ] on a 100 Mbps shared port";
 #speedtest "188.165.200.138:38301";
+
+## Alblasserdam, Netherlands (donated by http://ramnode.com)
+echo "Speedtest from Alblasserdam, Netherlands [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
+speedtest 185.52.0.68;
 
 ### Spijkenisse, Netherlands (donated by http://www.freshnetworks.co)
 echo "Speedtest from Spijkenisse, Netherlands [ generously donated by http://www.freshnetworks.co ] on a 1 Gbps shared port";
