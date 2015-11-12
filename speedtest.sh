@@ -151,33 +151,14 @@ speedtest 107.155.187.129;
 
 
 echo -e "\nTesting EU locations";
-### Tallinn, Estonia
-echo "Speedtest from Tallinn, Estonia on a shared 1 Gbps port";
-speedtest 46.22.208.190;
-
-### London, UK
-echo "Speedtest from London, United Kingdom on a shared 1 Gbps port";
-speedtest 178.62.29.155;
 
 ### Paris, France
 echo "Speedtest from Paris, France on a shared 1 Gbps port";
 speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
 
-### Roubaix, France (donated by http://www.freshnetworks.co)
-#echo "Speedtest from Roubaix, France [ generously donated by http://www.freshnetworks.co ] on a 100 Mbps shared port";
-#speedtest "188.165.200.138:38301";
-
 ## Alblasserdam, Netherlands (donated by http://ramnode.com)
 echo "Speedtest from Alblasserdam, Netherlands [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
 speedtest 185.52.0.68;
-
-### Spijkenisse, Netherlands (donated by http://www.freshnetworks.co)
-echo "Speedtest from Spijkenisse, Netherlands [ generously donated by http://www.freshnetworks.co ] on a 1 Gbps shared port";
-speedtest "94.228.216.119:34700";
-
-### Milan, Italy
-echo "Speedtest from Milan, Italy [ generously donated by http://www.prometeus.net ] on a shared 1 Gbps port";
-speedtest webtests.100percent.info; 
 
 ### Dusseldorf, Germany (donated by http://megavz.com)
 echo "Speedtest from Dusseldorf, Germany [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
@@ -186,7 +167,6 @@ speedtest 130.255.188.37:7020;
 ### Falkenstein, Germany (donated by http://megavz.com)
 echo "Speedtest from Falkenstein, Germany [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
 speedtest 5.9.2.36:12120;
-
 
 ### Bucharest, Romania
 echo "Speedtest from Bucharest, Romania [ generously donated by http://www.prometeus.net ] on a semi-dedicated 1 Gbps port";
